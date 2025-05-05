@@ -1,0 +1,30 @@
+#input data ke variabel
+nama = "deaceweheeseeung"
+#kalo mau cetak
+print(nama)
+
+#nilai dan tipe data dlm variabl dpt diubah
+umur = 16                   #nilai awal
+print(umur)                 #di cetak
+print(type(umur))           #di cek lah tipe apa di data umur ini teh
+umur = "enam belas"         #nilai setelah diubah
+print(umur)                 #di cetal
+print(type(umur))           #di cek lah tipe data nyaaa
+
+namaDepan = "dea"
+namaBelakang = "saheeseung"
+nama = namaDepan + " " + namaBelakang
+umur = 16
+hobi = "Melukid masa depan sama Heeseung"
+print("Biodata:\n", nama, "\n", umur, "\n", hobi)
+
+#variabel bisa kyk gini juga 
+variabeldea = "halo"
+ini_dea_variabel = "hai"
+_deainivariabel = "hii"
+inijuga1818 = "bbay"
+
+p = 10
+l = 8
+Luas = p * l
+print(Luas)
