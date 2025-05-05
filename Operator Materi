@@ -1,0 +1,235 @@
+#OPERATOR ARITMATIKA
+
+# (+)
+print(3 + 2)
+jeruk = 5
+apel = 6
+buah = jeruk + apel
+print(buah)
+
+# (-)
+hutang = 3000
+bayar = 2000
+sisahutang= hutang - bayar
+print("Sisa Hutang Anda ", sisahutang)
+
+# (*)
+p = 10
+l = 5
+luas = p * l
+print(luas)
+
+# (/)
+donat = 12
+anak = 4
+donatperanak = donat / anak
+print("setiap anak dapat donat sebanyak ", donatperanak)
+
+#sisa bagi / modulus
+bil1 = 14
+bil2 = 5
+hasil = bil1 % bil2
+print("sisa bagi dari bilangan ", bil1, "dan", bil2, "adalah", hasil)
+
+# pangkat
+bil3 = 8
+bil4 = 2
+hasilpangkat = bil3 ** bil4
+print(hasilpangkat)
+
+#pembagian bulat
+print(10//3)     #10 dibagi 3 adalah 3.3333 karena dibulatkan maka menjadi nilai 3
+print()
+
+
+
+#OPERATOR PERBANDINGAN
+
+#sama dengan (==)
+print('operator sama dengan')
+print('2 == 2 bernilai', 2==2)
+print('3 == 2 bernilai', 3==2)
+print()
+
+#tidak sama dengan (!=)
+print('operator tidak sama dengan')
+print('2 != 2 bernilai', 2!=2)
+print('3 != 2 bernilai', 3!=2)
+print()
+
+#lebih besar dari (>)
+print('operator lebih besar dari')
+print('5 > 3 bernilai', 5>3)
+print('5 > 10 bernilai', 5>10)
+print()
+
+#lebih kecil dari (<)
+print('operator lebih kecil dari')
+print('5 < 3 bernilai', 5<3)
+print('5 < 10 bernilai', 5<10)
+print()
+
+#lebih besar dari (>=)
+print('operator lebih besar dari')
+print('5 >= 10 bernilai', 5>=10)
+print('5 >= 5 bernilai', 5>=5)
+print('5 >= 3 bernilai', 5>=3)
+print()
+
+#lebih kecil dari (<)
+print('operator lebih kecil dari')
+print('5 <= 3 bernilai', 5<=3)
+print('5 <= 5 bernilai', 5<=5)
+print('5 <= 10 bernilai', 5<=10)
+print()
+
+
+
+#PERATOR PENUGASAN
+
+#sama dengan (=)
+print('operator sama dengan')
+a = 2
+print(a)
+b = 2.5
+print(b)
+a = b
+print(a)
+
+#tambah sama dengan (+=)
+print('operator tambah sama dengan')
+a = 2
+print(a)
+a += 5
+a = a + 5
+print(a)
+print()
+
+#kurang sama dengan (-=)
+print('operator kurang sama dengan')
+a = 4
+print(a)
+a -= 2
+print(a)
+print()
+
+#kali sama dengan (*=)
+print('operator sali sama dengan')
+a = 4
+print(a)
+a *= 2
+print(a)
+print()
+
+#bagi sama dengan (/=)
+print('operator bagi sama dengan')
+a = 4
+print(a)
+a /= 2
+print(a)
+print()
+
+#sisa bagi sama dengan (%=)
+print('operator sisa bagi sama dengan')
+a = 7
+print(a)
+a %= 2
+print(a)
+print()
+
+#pangkat sama dengan (**=)
+print('operetor pangkat sama dengan')
+a = 4
+print(a)
+a **= 2
+print(a)
+print()
+
+#pembagian bulat sama dengan (//=)
+print('operator sisa bagi sama dengan')
+a = 10
+print(a)
+a //= 3
+print(a)
+print()
+
+
+
+#OPERATOR LOGICAL
+
+#and
+print('5>3 dan 5>2 bernilai', 5>3 and 5>2)
+print('5>3 dan 5>10 bernilai', 5>3 and 5>10)
+print('5>10 dan 5>3 bernilai', 5>10 and 5>3)
+print('5>10 dan 5>8 bernilai', 5>10 and 5>8)
+print()
+
+#or
+print('5>3 dan 5>2 bernilai', 5>3 or 5>2)
+print('5>3 dan 5>10 bernilai', 5>3 or 5>10)
+print('5>10 dan 5>3 bernilai', 5>10 or 5>3)
+print('5>10 dan 5>8 bernilai', 5>10 or 5>8)
+print()
+
+#not
+print(not 5>3)
+print(not 1>3)
+print()
+
+
+
+#OPERATOR BITWISE
+
+#&
+a = 13     #dlm biner 0000 1101
+b = 37     #dlm biner 0010 0101
+c = a & b  #akan bernilai 0000 0101
+print(c)
+print()
+
+#|
+a = 13
+b = 37
+c = a | b
+print(c)
+print()
+
+
+
+#OPERATOR KEANGGOTAAN
+
+#in
+sebuah_list = [1,2,3,4,5]
+print('sebuah_list =', sebuah_list)
+print('5 in sebuah_list bernilai', 5 in sebuah_list)
+print('10 in sebuah_list bernilai', 10 in sebuah_list)
+print()
+
+#not in
+sebuah_list = [1,2,3,4,5]
+print('sebuah_list bernilai =', sebuah_list)
+print('5 not in sebuah_list bernilai', 5 not in sebuah_list)
+print('10 not in sebuah_list bernilai', 10 not in sebuah_list)
+print()
+
+
+
+#OPERATOR IDENTITAS
+
+#is
+a, b, c = 10, 10, 5
+print('a =', a)
+print('b =', b)
+print('c =', c)
+print('a is b bernilai', a is b)
+print('a is c bernilai', a is c)
+print()
+
+#is not
+a, b, c = 10, 10, 5
+print('a =', a)
+print('b =', b)
+print('c =', c)
+print('a is b bernilai', a is not b)
+print('a is c bernilai', a is not c)
+print()
