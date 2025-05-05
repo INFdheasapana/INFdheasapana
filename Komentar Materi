@@ -1,0 +1,27 @@
+#ini contoh komentar!
+#tulisan ini tidak akan mucul/ ter-print
+
+#komentar menggunakan pagar hanya bisa 1 baris, contoh :
+#Hallo
+#Neskar
+#People
+
+"""
+ingin 3 baris harus menggunakan kutip 3 kali
+d
+e
+a
+"""
+print("Hello World") #ini juga komentar
+"""
+print("Heloo World") # ini komentar
+"""
+#print("Welcome")
+
+# komentar bisa berisi !?@
+
+#mencetak nama
+print("Dea")
+
+#mencetak angka
+print(18092009)
