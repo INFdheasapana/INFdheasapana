@@ -1,0 +1,36 @@
+#tipe data Boolean
+print(True)
+
+#tipe data String
+print("i love python")
+print('python sangat MUDAH')
+
+#tipe data Intenger
+print(-18)
+
+#tipe data Float
+print(3,14)
+
+#tipe data Hexadecimal
+print("Bentuk Hexadecimal dari 23 adalah " + hex (18))
+
+print("nama saya : " + "dea")
+
+#tipe data Coplex
+print(5j)
+
+#tipe data List
+print([1,2,3,4,5])
+print(["satu", "dua", "tiga"])
+
+#tipe data Tuple
+print((1,2,3,4,5))
+print(("satu", "dua", "tiga"))
+
+#tipe data Dictionary
+print({"nama":"gugun", 'umur':26})
+
+#tipe data Dictionary dimasukan ke dlm variabel biodata
+biodata = {"nama":"gina", 'umur':16} #proses cetak variabel biodata
+print(biodata) #di cetak lah 
+print(type(biodata)) #nanti mencul lah tipe apa , contoh <class 'dict'>
