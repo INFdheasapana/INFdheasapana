@@ -1,0 +1,4 @@
+massage = 'hai neskar'
+print('sebelum up =', massage)
+massage = massage + 'people'
+print('sesudah up = ', massage)
