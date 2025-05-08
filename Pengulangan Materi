@@ -1,0 +1,40 @@
+#PENGULANGAN
+
+#WHILE LOOP
+count = 0
+while (count <= 9):
+    print("The count is: ", count)
+    count += 1
+
+print("bye byee!")
+
+
+
+#FOR LOOP
+#contoh pengulangan for sederhana
+angka = [1,2,3,4,5]
+for x in angka:
+    print(x)
+
+
+
+#contoh pengulangan for
+buah = ["nanas", "apel", "buah naga"]
+for y in buah:
+    print("Aku suka makan", y)
+
+for i in range(1,12):
+    print(i)
+
+
+
+#NASTED LOOP
+today = 3
+if today == 1:
+    day = 'senin'
+elif today == 2:
+    day = 'selasa'
+elif today == 3:
+    day = 'hari tidak di data'
+
+print(day)
