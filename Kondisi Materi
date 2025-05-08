@@ -1,0 +1,37 @@
+#KONDISI IF
+nilai = 9
+
+#jika kondisi benar/true maka akan tercetak
+#jika kondisi salah/false maka tidak akan tercetak
+if(nilai > 7):
+    print("Nilai lebih besar dari angka Tujuh")
+
+if(nilai > 10):
+    print("Nilai lebih besar dari angka Sepuluh")
+
+
+
+#KONDISI IF ELSE
+nilai = 85
+
+#jika kondisi benar/true maka akan tercetak
+#jika kondisi salah/false maka tidak akan tercetak
+if nilai >= 70:
+    print("LULUS")
+
+else:
+    print("TIDAK LULUS")
+
+
+
+#KONDISI ELIF
+nilai_angka = 63
+
+if (nilai_angka >= 80):
+    print('A')
+elif (nilai_angka >= 70):
+    print('B')
+elif (nilai_angka >= 60):
+    print('C')
+else:
+    print('D')
